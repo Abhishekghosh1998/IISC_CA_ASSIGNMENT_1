@@ -1,0 +1,21 @@
+1. Change the present working directory to source/tools/ManualExamples
+2. The pintool is present as :
+	a. trace_bench_1.cpp
+	b. trace_bench_2.cpp
+	c. trace_bench_3.cpp
+   Try to build the pintools using the following 3 commands:
+   	a.  make obj-intel64/trace_bench_1.so
+	b.  make obj-intel64/trace_bench_2.so
+	c.  make obj-intel64/trace_bench_3.so
+3. To generate the traces of our benchmarks do the following:
+	../../../pin -t obj-intel64/trace_betch_1.so -- /home/abhishek/Downloads/Microbenchmarks/bin/bench_1
+	../../../pin -t obj-intel64/trace_betch_2.so -- /home/abhishek/Downloads/Microbenchmarks/bin/bench_2
+	../../../pin -t obj-intel64/trace_betch_3.so -- /home/abhishek/Downloads/Microbenchmarks/bin/bench_3
+4. The output files shall named as :
+	a. trace_bench_1.out
+	b. trace_bench_2.out
+	c. trace_bench_3.out
+	
+5. source/tools/ManualExamples/ has bash script named trace.sh, which futher explains how to get the traces.
+
+	

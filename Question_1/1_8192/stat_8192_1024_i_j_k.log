@@ -1,0 +1,10 @@
+cache-misses = 247413460
+time elapsed (in secs)  = 4755.18
+page-faults = 1514114
+L1-dcache-load-misses = 552720659943
+L1-icache-load-misses = 2462062
+LLC-load-misses = 197082675
+dTLB-load-misses = 0
+iTLB-load-misses = 0
+LLC-store-misses = 0
+dTLB-store-misses = 0
